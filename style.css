@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+}
+
+
+.conteiner1{
+    
+    position: relative;
+    width: 100%;
+    height: 85px;
+    background-color: orange;
+}
+
+.medium img{
+    position: absolute;
+    top: 15px;
+    left: 200px;
+    width: 200px;
+    height: 50px;
+}
+
+#hrfirst{
+    border-color: black;
+    height: 0px;
+}
+/*
+BOTTONI
+*/
+
+.bottoni{
+    display: flex;
+    position: relative;
+    color: black;
+    left: 950px;
+    width: 400px;
+    height: 30px;
+    top: 26px;
+    justify-content: space-between;
+}
+
+.bottoni div{
+    line-height: 150%;
+}
+
+button{
+    background-color: transparent;
+    border: 0 solid transparent;
+}
+/*
+focus BOTTONI
+*/
+
+button:focus{
+    background-color: black;
+    color: white;
+    border-radius: 22px;
+}
+
+/*
+CONTEINER 2
+*/
+
+.conteiner2{
+    display: flex;
+    position: relative;
+
+    width: 100%;
+    height: 500px;
+
+    background-color: orange;
+}
+
+/*
+DIV CONTEINER 2
+*/
+
+.titolo{
+   position: absolute;
+
+   width: 650px;
+   height: 150px;
+
+   top: 70px;
+   left: 200px;
+
+   font-size: 120px;
+}
+
+.sottotitolo{
+    position: relative;
+
+    width: 400px;
+    height: 70px;
+
+    left: 200px;
+    top: 250px;
+
+    font-size: 28px;
+}
+
+.bottone{
+    border-radius: 22px;
+    position: relative;
+    background-color: black;
+
+    width: 200px;
+    height: 40px;
+
+    line-height: 230%;
+    text-align: center;
+
+    top: 370px;
+    right: 201px;
+
+}
+
+.bottone div{
+    font-size: 17px bolder;
+    color: white;
+}
+
+/*
+CONTEINER3
+*/
+
+.trending{
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    top: -230px;
+    left: -40px;
+}
+
+.trending span{
+    position: relative;
+    line-height: 170%;
+    font-size: 20px;
+    left: 20px;
+}
+
+.trending i{
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 3px;
+}
+
+.spaziocard{
+    display: flex;
+    position: relative;
+    
+    width: 100%;
+    height: 420px;
+}
+
+.conteiner4 {
+    position: absolute;
+    top: 260px;
+
+    display: flex;
+    justify-content: space-around;
+
+    width: 75%;
+    height: 150px;
+}
+.conteiner3{
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    height: 150px;
+    
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+    position: relative;
+
+    width: 350px;
+    height: 150px;
+}
+
+.spazio1{
+    width: 50px;
+    height: 150px;
+}
+
+.numero{
+    position: relative;
+
+    width: 50px;
+    height: 35px;
+}
+
+.numero span{
+    position: absolute;
+    font-size: 40px;
+    top: -5px;
+    left: 5px;
+    color: darkgrey;
+}
+
+.colonna{
+    
+    top: -152px;
+    left: 50px;
+    position: relative;
+
+    width: 300px;
+    height: 150px;
+}
+
+.spazio2{
+    display: flex;
+
+    width: 300px;
+    height: 35px;
+}
+
+.spazio2 div{
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 7px;
+    margin-left: 3px;
+}
+
+.spazio2 #azienda{
+    border: none;
+    width: 100px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.spazio3{
+    position: relative;
+
+    width: 300px;
+    height: 80px;
+
+    text-align: left;
+}
+
+.spazio3 span{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 7px;
+    margin-right: 7px;
+
+    font-size: 17px bolder;
+
+}
+
+.spazio4{
+    position: relative;
+
+    width: 300px;
+    height: 35px;
+}
+
+.spazio4 span{
+    margin-left: 10px;
+    line-height: 200%;
+    color: grey;
+    font-weight: 10;
+}
+
+/*
+ULTIMO CONTenitore
+*/
+
+.contenitore{
+    display: flex;
+    position:relative;
+
+    width: 100%;
+    height: 3100px;
+}
+
+.contenitore1{
+    width: 45%;
+    height: 900px;
+    margin-left: -250px;
+
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card2{
+    margin-bottom: 40px;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.card2 .spaziouno{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    position: relative;
+}
+
+.spaziodue{
+    width: 30%;
+    height: 100%;
+    margin-left: auto;
+}
+
+.spaziodue img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.spaziouno .azienda div{
+    border: 1px solid rgb(220, 214, 214);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.spaziouno .azienda span{
+    position: absolute;
+    top: 7px;
+    left: 40px;
+}
+
+.spaziouno .titolocard{
+  
+    width: 100%;
+    height: 30px;
+    font-size: 25px;
+    font-weight: 1000;
+    margin-top: 5px;
+}
+
+.descrizione{
+    width: 100%;
+    height: 70px;
+}
+
+.descrizione span{
+    position: relative;
+    top: 10px;
+    color: rgb(115, 109, 109);
+}
+
+.data{
+    
+
+}
+
+.data span{
+    margin: 10px;
+    font-size: 13px;
+    color:  rgb(115, 109, 109);
+}
+
+.data span:nth-child(3){
+    border: 1px solid rgb(220, 214, 214);
+    border-radius: 6px;
+    padding: 3px;
+    color:  rgb(115, 109, 109);
+    background-color: rgb(220, 214, 214);
+}
+
+/*
+CONTENITORE DX FISSO
+*/
+
+.contenitore2{
+    position: relative;
+    border: 1px ;
+    width: 25%;
+    height: 300px;
+    left: 900px;
+    top: 35px;
+}
+
+.contenitore2 .discover{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.contenitore2 .tasti{
+    display: flex;
+    flex-flow: row wrap;
+
+    margin-top: 20px;
+    color: darkgrey;
+}
+
+
+.contenitore2 .tasti span{
+    border: 0.0002px solid darkgrey;
+    
+    height: 30px;
+    line-height: 180%;
+    padding: 2px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+
+}
+
+/*HELPS*/
+
+.helps span{
+    color: darkgrey;
+    font-size: bolder;
+    margin-left: 10px ;
+    margin-top: 12px;
+}
+
+.helps{
+    display: flex;
+    flex-flow: row wrap;
+
+    margin-top: 20px;
+    color: darkgrey;
+}
